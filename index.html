@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <link rel="shortcut icon" href="images/logo.png" type="">
+
+        <!-- fontawesome-->
+        <link rel="stylesheet" href="css/all.min.css">
+        <!-- bootstrap css-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- style main css -->
+        <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+
+    <div class="loading">
+        <i class="fa fa-spinner fa-spin fa-5x"></i>
+    </div>
+
+    <aside class="d-flex text-white">
+        <div class="nav-menu p-4">
+            <div class="links">
+                <ul class="overflow-hidden">
+                    <li><a href="#" id="search">Search</a></li>
+                    <li><a href="#" id="Categories">Categories</a></li>
+                    <li><a href="#" id="area">Area</a></li>
+                    <li><a href="#" id="ingredients">Ingredients</a></li>
+                    <li><a href="#" id="Contact">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-footer">
+                <div class="icons">
+                    <ul class="d-flex">
+                        <li><i class="fa-brands fa-facebook"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-solid fa-globe"></i></li>
+                    </ul>
+                    <p class="text-white-50">Copyright Â© 2019 All Rights <br/> Reserved.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav-header">
+            <img src="images/logo.png" alt="logo">
+            <i class="fa-solid fa-bars fs-2 icon"></i>
+            <div class="icons d-flex flex-column">
+                <i class="fa-solid fa-globe pb-3 fs-5"></i>
+                <i class="fa-solid fa-share-nodes fs-5"></i>
+            </div>
+        </div>
+    </aside>
+
+    <main>
+        <!--! search -->
+        <div id="search">
+            <div class="container p-5" id="searchcontainer">
+            </div>
+        </div>
+
+        <div class="min-vh-100 position-relative">
+            <div class="inner-loading">
+                <i class="fa fa-spinner fa-spin fa-5x"></i>
+            </div>
+
+        <!--! Meals -->
+            <div id="meals" class="py-4">
+                <div class="container">
+                    <div class="row g-4" id="rowData" >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+    <!-- jquery -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- main js -->
+    <script src="js/index.js"></script>
+
+</body>
+</html>
